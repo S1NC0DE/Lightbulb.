@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Python Master Class</title>
+      <link rel="stylesheet" href="python.css">
+      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+</head>
+<body>
+      <div class="temp"></div>
+      <div class="first-block"></div>
+      <div class="second-block"></div>
+      <div class="loader">
+            <ul>
+                  <li>L</li>
+                  <li>O</li>
+                  <li>A</li>
+                  <li>D</li>
+                  <li>I</li>
+                  <li>N</li>
+                  <li>G</li>
+            </ul>
+      </div>
+      <div class="third-block"></div>
+      <div class="menu">
+            <a href="/main.html"><ion-icon name="home"></ion-icon></a>
+      </div>
+      <div class="logo">
+            <span>Lightbulb.</span>
+      </div>
+      <div class="content">
+            <div class="heading">
+                  <span>Complete Python Masterclass</span>
+            </div>
+            <br>
+            <div class="desc">
+                  <p>🗸 From foundations to expert, learn about every major Python topic, working with Python 3. <br>
+🗸 Master Object-Oriented Programming and structure your Python programs like a professional.<br>
+🗸 Write professional-grade Pythonic code with all the best practices and avoiding common pitfalls.<br>
+🗸 Create 10 real-world Python programs (no toy programs)<br>
+🗸 Understand how to create your own Python programs.<br>
+🗸 Learn about all of the latest features in Python 3.6<br>
+🗸 Master tricky topics like Multiple Inheritance and Polymorphism<br>
+🗸 Build larger projects that span across multiple files</p>
+            </div>
+            <div class="link">
+                  <button onclick="location.href='mailto:jayant.singh045@gmail.com';" type="button">REACH US</button>
+            </div>
+      </div>
+      <div class="img">
+            <img src="/website/python pic.gif" alt="">
+      </div>
+      <div class="media">
+            <ul>
+                  <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                  <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                  <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            </ul>
+      </div>
+      <div class="watch">
+            <ion-icon name="play"></ion-icon>
+      </div>
+
+      <script type="text/javascript">
+
+      TweenMax.from(".logo", 1.6, {
+            delay: 6.4,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".menu", 1.6, {
+            delay: 6.5,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".heading", 1.6, {
+            delay: 6.6,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".desc", 1.6, {
+            delay: 6.7,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from("button", 1.6, {
+            delay: 6.8,
+            opacity: 0,
+            y: 30,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.from(".watch", 1.6, {
+            delay: 6.9,
+            opacity: 0,
+            y: 30,
+            rotation: 90,
+            ease: Expo.easeInOut
+      });
+
+      TweenMax.staggerFrom(".media ul li", 2, {
+            delay: 7,
+            opacity: 0,
+            y: 40,
+            ease: Expo.easeInOut
+      }, 0.2);
+
+      </script>
+</body>
+</html>
